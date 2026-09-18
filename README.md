@@ -1,0 +1,2 @@
+# WTrendBase
+Pages for trending

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080">
+    <title>William Trend Base Pages</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #0a0e1c;
+        }
+
+        .title {
+            display: flex;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            padding: 30px;
+            font-size: 60px;
+            font-weight: 700;
+            color: rgb(255, 255, 255);
+            justify-content: center;
+            gap: 18px;
+        }
+
+        span {
+            color: rgb(96, 158, 235);
+        }
+
+        .buttoncard{
+            /* background-color: #16161a; */
+            margin: auto;
+            padding-top: 30px;
+            padding-bottom: 60px;
+            width: 900px;
+            /* border: 1px solid #414147; */
+            border-radius: 18px;
+        }
+
+        .hint {
+            display: flex;
+            color: #aaaab5;
+            justify-content: center;
+            margin: 50px;
+            font-size: 30px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        button {
+            background: #fff;
+            color: #111;
+            width: 600px;
+            height: 100px;
+            border-radius: 25px;
+            padding: 12px 22px;
+            font-weight: bold;
+            font-size: 25px;
+            cursor: pointer;
+            margin-top: 30px;
+
+        }
+
+        /* .secondary {
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+            border-radius: 18px; */
+
+        button.secondary {
+            background: #292936;
+            color: #fff;
+            border: 1px solid #3a3a4a;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">WILLIAM <span>TREND BASE</span></div>
+    <div class="buttoncard">
+
+        <div class="hint"> Select the card generator that you want to use below </div>
+        <div class="buttons">
+            <button id="trendBtn" type="button" class="secondary"
+                onclick="window.location.href='trend_classic.html'">USE
+                TREND CARD GENERATOR</button>
+            <button id="statsBtn" type="button" class="secondary" onclick="window.location.href='stats_card.html'">USE
+                STATS
+                CARD GENERATOR</button>
+        </div>
+    </div>
+</body>
+
+</html>

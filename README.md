@@ -1,2 +1,2 @@
 # WTrendBase
-Pages for trending
+Card generators for William Trend Base
